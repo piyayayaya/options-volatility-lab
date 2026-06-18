@@ -1,0 +1,59 @@
+\documentclass[11pt]{article}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage[margin=1in]{geometry}
+
+\title{Options Volatility Lab}
+\author{Piya Tewari}
+\date{\today}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+Options are financial derivatives whose value depends on the price of an underlying asset. Because option prices are strongly influenced by uncertainty, volatility plays a central role in option valuation and risk management. Traders and quantitative analysts use mathematical models to estimate option prices, measure risk exposures, and understand how changes in market conditions affect option values.
+
+The purpose of this project was to explore option pricing and volatility through both theoretical modeling and real market data. I implemented the Black-Scholes option pricing model from scratch in Python and used it to calculate call and put option values under different market conditions. I then examined how option prices respond to changes in volatility, stock price, and time to expiration.
+
+In addition to option valuation, I analyzed several of the most important option Greeks, including Delta, Gamma, and Vega. These quantities measure how option values respond to changes in underlying market variables and are widely used in professional options trading and risk management.
+
+To connect the theoretical model with real financial markets, I estimated historical volatility using SPY price data, compared model prices to observed market prices, and investigated the volatility smile observed in real option chains. Together, these analyses provide insight into how options are priced and how volatility influences trading decisions.
+
+\section{Black-Scholes Model}
+
+\section{Option Sensitivity Analysis}
+
+\subsection{Volatility and Option Prices}
+
+\subsection{Stock Price and Option Value}
+
+\subsection{Time to Expiration}
+
+\section{The Greeks}
+
+\subsection{Delta}
+
+\subsection{Gamma}
+
+\subsection{Vega}
+
+\section{Historical Volatility}
+
+\section{Market Validation}
+
+\subsection{Historical vs Implied Volatility}
+
+\subsection{Market Price vs Model Price}
+
+\subsection{Volatility Smile}
+
+\section{Conclusion}
+
+\end{document}
